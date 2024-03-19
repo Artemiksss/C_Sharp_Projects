@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lab5.Application.Abstractions\Lab5.Application.Abstractions.csproj" />
+      <ProjectReference Include="..\Lab5.Application.Exception\Lab5.Application.Exception.csproj" />
+    </ItemGroup>
+    
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql" />
+    </ItemGroup>
+
+</Project>
